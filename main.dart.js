@@ -84991,7 +84991,7 @@ new A.a8S(a,b,c,d).$1(l)
 o=l.Qq()
 l=A.dP(p.a)
 n=t.N
-n=A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(m)],n,n)
+n=A.aq(["Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Origin, Content-Type, X-Auth-Token","Content-Type","application/json","Authorization","Bearer "+A.i(m)],n,n)
 s=4
 return A.M(A.atB(l,B.a3.hj($.xM().vK($.au1(),o)),n),$async$ux)
 case 4:l=f.b
@@ -85042,7 +85042,7 @@ new A.aih(a,b).$1(k)
 o=k.KL()
 n=A.dP(p.a)
 k=t.N
-k=A.aq(["Content-Type","application/json"],k,k)
+k=A.aq(["Content-Type","application/json","Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Origin, Content-Type, X-Auth-Token"],k,k)
 s=3
 return A.M(A.atB(n,B.a3.hj($.IS().vK($.au4(),o)),k),$async$uK)
 case 3:m=d
@@ -85074,7 +85074,7 @@ return A.M(B.aR.jp(0,"token"),$async$qO)
 case 3:o=c
 n=t.N
 s=4
-return A.M(A.IB(A.dP("https://truenaryomswebapi.azurewebsites.net/api/services?pageNumber=1&pageSize=5"),A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(o)],n,n)),$async$qO)
+return A.M(A.IB(A.dP("https://truenaryomswebapi.azurewebsites.net/api/services?pageNumber=1&pageSize=5"),A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(o),"Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Origin, Content-Type, X-Auth-Token"],n,n)),$async$qO)
 case 4:m=c
 if(m.b===200){p=J.h3(J.aG(B.a3.c2(0,A.rS(J.aG(A.rM(m.e).c.a,"charset")).c2(0,m.w)),"value"),new A.afs(),t.uk).cT(0)
 n=A.a2(p).h("aM<1>")
@@ -85091,7 +85091,7 @@ return A.M(B.aR.jp(0,"token"),$async$qD)
 case 3:n=b
 m=t.N
 s=4
-return A.M(A.IB(A.dP(p.a),A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(n)],m,m)),$async$qD)
+return A.M(A.IB(A.dP(p.a),A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(n),"Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Origin, Content-Type, X-Auth-Token"],m,m)),$async$qD)
 case 4:l=b
 if(l.b===200){o=J.h3(J.aG(B.a3.c2(0,A.rS(J.aG(A.rM(l.e).c.a,"charset")).c2(0,l.w)),"value"),new A.afq(),t.uk).cT(0)
 m=A.a2(o).h("aM<1>")
@@ -85109,7 +85109,7 @@ return A.M(B.aR.jp(0,"token"),$async$qB)
 case 3:n=c
 m=t.N
 s=4
-return A.M(A.IB(A.dP(u.E+a),A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(n)],m,m)),$async$qB)
+return A.M(A.IB(A.dP(u.E+a),A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(n),"Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Origin, Content-Type, X-Auth-Token"],m,m)),$async$qB)
 case 4:l=c
 if(l.b===200){p=B.a3.c2(0,A.rS(J.aG(A.rM(l.e).c.a,"charset")).c2(0,l.w))
 o=$.xM().na($.IQ(),J.aG(p,"value"),t.Y7)
@@ -85130,7 +85130,7 @@ new A.afp(a,b).$1(l)
 o=l.rY()
 l=A.dP(p.b)
 n=t.N
-n=A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(m)],n,n)
+n=A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(m),"Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Origin, Content-Type, X-Auth-Token"],n,n)
 s=4
 return A.M(A.atB(l,B.a3.hj($.xM().vK($.au2(),o)),n),$async$td)
 case 4:l=d.b
@@ -85150,7 +85150,7 @@ new A.afu(b,c,d).$1(m)
 p=m.rY()
 m=A.dP(u.E+a)
 o=t.N
-o=A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(n)],o,o)
+o=A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(n),"Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Origin, Content-Type, X-Auth-Token"],o,o)
 s=4
 return A.M(A.aT8(m,B.a3.hj($.xM().vK($.au3(),p)),o),$async$vs)
 case 4:m=f.b
@@ -85190,7 +85190,7 @@ return A.M(B.aR.jp(0,"token"),$async$jw)
 case 3:n=c
 m=t.N
 s=4
-return A.M(A.IB(A.dP(p.a),A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(n)],m,m)),$async$jw)
+return A.M(A.IB(A.dP(p.a),A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(n),"Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Origin, Content-Type, X-Auth-Token"],m,m)),$async$jw)
 case 4:l=c
 if(l.b===200){o=J.h3(J.aG(B.a3.c2(0,A.rS(J.aG(A.rM(l.e).c.a,"charset")).c2(0,l.w)),"value"),new A.ai9(),t.sS).cT(0)
 m=A.a2(o).h("aM<1>")
@@ -85207,7 +85207,7 @@ return A.M(B.aR.jp(0,"token"),$async$qM)
 case 3:i=b
 h=t.N
 s=4
-return A.M(A.IB(A.dP(p.b),A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(i)],h,h)),$async$qM)
+return A.M(A.IB(A.dP(p.b),A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(i),"Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Origin, Content-Type, X-Auth-Token"],h,h)),$async$qM)
 case 4:g=b
 try{if(g.b===200){h=g
 o=B.a3.c2(0,A.rS(J.aG(A.rM(h.e).c.a,"charset")).c2(0,h.w))
@@ -85230,7 +85230,7 @@ return A.M(B.aR.jp(0,"token"),$async$qG)
 case 3:n=b
 m=t.N
 s=4
-return A.M(A.IB(A.dP(p.c),A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(n)],m,m)),$async$qG)
+return A.M(A.IB(A.dP(p.c),A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(n),"Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Origin, Content-Type, X-Auth-Token"],m,m)),$async$qG)
 case 4:l=b
 if(l.b===200){o=J.h3(J.aG(B.a3.c2(0,A.rS(J.aG(A.rM(l.e).c.a,"charset")).c2(0,l.w)),"value"),new A.aib(),t.sS).cT(0)
 m=A.a2(o).h("aM<1>")
@@ -85248,7 +85248,7 @@ return A.M(B.aR.jp(0,"token"),$async$qC)
 case 3:n=c
 m=t.N
 s=4
-return A.M(A.atB(A.dP("https://truenaryomswebapi.azurewebsites.net/api/members/find-member/"+a),null,A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(n)],m,m)),$async$qC)
+return A.M(A.atB(A.dP("https://truenaryomswebapi.azurewebsites.net/api/members/find-member/"+a),null,A.aq(["Content-Type","application/json","Authorization","Bearer "+A.i(n),"Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","Origin, Content-Type, X-Auth-Token"],m,m)),$async$qC)
 case 4:l=c
 if(l.b===200){p=B.a3.c2(0,A.rS(J.aG(A.rM(l.e).c.a,"charset")).c2(0,l.w))
 o=$.IS().na($.xK(),J.aG(p,"value"),t.AN)
